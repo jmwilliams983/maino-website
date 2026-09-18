@@ -62,3 +62,7 @@ footer{grid-template-columns:1fr;text-align:center}footer p:last-child{text-alig
 .inquiry-form textarea{resize:vertical}.form-submit{width:100%;cursor:pointer;font:inherit}
 .form-note{margin:.9rem 0 0;color:#7f8994;font-size:.76rem}
 @media(max-width:850px){.contact-layout{grid-template-columns:1fr}}
+.brand-logo{width:48px;height:48px;object-fit:cover;border-radius:50%;border:1px solid rgba(213,166,75,.45);box-shadow:0 0 18px rgba(213,166,75,.12)}
+.hero-logo-image{position:relative;z-index:1;display:block;width:min(92%,520px);height:auto;margin:auto;border:1px solid rgba(213,166,75,.18);box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.hero-panel{padding:clamp(1rem,3vw,2rem)}
+@media(max-width:850px){.brand-logo{width:42px;height:42px}.hero-logo-image{width:min(96%,430px)}}
