@@ -106,15 +106,46 @@
     </section>
 
     <section class="section contact" id="contact">
-      <div class="contact-box reveal">
-        <p class="eyebrow">Contact</p>
-        <h2>Have a project, idea, or opportunity?</h2>
-        <p>JW Legacy Enterprises is currently building its service lineup and business infrastructure. Serious collaboration and business inquiries are welcome.</p>
-        <div class="actions">
-          <a class="btn primary" href="https://github.com/jmwilliams983" target="_blank" rel="noreferrer">View Online Presence</a>
-          <a class="btn secondary" href="../">Visit Main'O Personal Site</a>
+      <div class="contact-layout">
+        <div class="contact-box reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Have a project, idea, or opportunity?</h2>
+          <p>Send an inquiry about content, media, music, entertainment, partnerships, or future business services.</p>
+          <div class="contact-details">
+            <div><span>Business</span><strong>JW Legacy Enterprises</strong></div>
+            <div><span>Founder</span><strong>Jermaine Williams</strong></div>
+            <div><span>Service Area</span><strong>Mobile County, Alabama</strong></div>
+            <div><span>Email</span><strong>Business email coming soon</strong></div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/jmwilliams983" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="../">Main'O Personal Site</a>
+            <span>Facebook — Coming Soon</span>
+            <span>Instagram — Coming Soon</span>
+          </div>
         </div>
-        <small>Official business email, phone number, social accounts, pricing, and booking information coming soon.</small>
+
+        <form class="inquiry-form reveal" id="inquiry-form">
+          <div class="form-heading">
+            <p class="eyebrow">Request a Quote</p>
+            <h3>Tell us what you need.</h3>
+          </div>
+          <label>Your Name<input type="text" name="name" autocomplete="name" required /></label>
+          <label>Email Address<input type="email" name="email" autocomplete="email" required /></label>
+          <label>Service
+            <select name="service" required>
+              <option value="">Choose a service</option>
+              <option>Content & Media</option>
+              <option>Music & Entertainment</option>
+              <option>Business Services</option>
+              <option>Partnership / Collaboration</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Project Details<textarea name="message" rows="6" required placeholder="Tell us about your project, idea, or opportunity."></textarea></label>
+          <button class="btn primary form-submit" type="submit">Prepare Inquiry</button>
+          <p class="form-note" id="form-note">Until the official business email is added, this form prepares your message so you can copy and send it from your preferred email app.</p>
+        </form>
       </div>
     </section>
   </main>
