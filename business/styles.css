@@ -44,3 +44,21 @@ footer{display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;align-items:cent
 .hero,.split,.section-title-row,.vision{grid-template-columns:1fr}.hero{min-height:auto;padding:4rem 0}.hero-panel{min-height:400px}.cards{grid-template-columns:1fr}.card{border-right:0;border-bottom:1px solid var(--line)}.card:last-child{border-bottom:0}
 footer{grid-template-columns:1fr;text-align:center}footer p:last-child{text-align:center}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
+.contact-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:1.5rem;align-items:stretch}
+.contact-layout .contact-box{text-align:left}.contact-layout .contact-box h2{margin:0;max-width:none}
+.contact-layout .contact-box>p:not(.eyebrow){margin:1.3rem 0;max-width:none}
+.contact-details{margin-top:2rem;border-top:1px solid var(--line)}
+.contact-details div{padding:1rem 0;border-bottom:1px solid var(--line)}
+.contact-details span{display:block;color:#77828f;font-size:.68rem;text-transform:uppercase;letter-spacing:.14em}
+.contact-details strong{font-size:.98rem}
+.social-links{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.5rem}
+.social-links a,.social-links span{padding:.48rem .65rem;border:1px solid var(--line);font-size:.76rem;color:#cbd2d9}
+.social-links a:hover{border-color:var(--accent);color:var(--accent2)}
+.inquiry-form{padding:clamp(2rem,5vw,4rem);border:1px solid var(--line);background:#101720}
+.form-heading h3{margin:0 0 2rem;font-size:2.4rem}
+.inquiry-form label{display:grid;gap:.5rem;margin-bottom:1.15rem;font-size:.82rem;font-weight:700}
+.inquiry-form input,.inquiry-form select,.inquiry-form textarea{width:100%;border:1px solid var(--line);background:#0c1118;color:var(--text);padding:.85rem .9rem;font:inherit;outline:none}
+.inquiry-form input:focus,.inquiry-form select:focus,.inquiry-form textarea:focus{border-color:var(--accent)}
+.inquiry-form textarea{resize:vertical}.form-submit{width:100%;cursor:pointer;font:inherit}
+.form-note{margin:.9rem 0 0;color:#7f8994;font-size:.76rem}
+@media(max-width:850px){.contact-layout{grid-template-columns:1fr}}
